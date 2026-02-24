@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PyDTS"
+version = "0.1.0"
+authors = [
+  { name="Next Level Software Studio", email="seu@email.com" },
+]
+description = "NLSS Data Transfer System"
+readme = "README.md"
+requires-python = ">=3.13.12"
+dependencies = [
+    "requests>=2.31.0", # Exemplo de dependência
+]
+
+[project.urls]
+"Homepage" = "https://github.com/usuario/repositorio"
