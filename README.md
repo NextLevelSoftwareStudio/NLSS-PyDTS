@@ -48,7 +48,7 @@ Mesmo em um ambiente distribuído, a organização e a privacidade são mantidas
 
 ```bash
 pip install PyDTS
-
+```
 
 ## 🤝 Sobre o Projeto
 Este projeto é uma iniciativa da **Next Level Software Studio**. O foco é fornecer uma infraestrutura de comunicação descentralizada, eficiente e simples de integrar em projetos Python que exigem alta performance e escalabilidade local.
