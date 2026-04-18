@@ -1,6 +1,6 @@
 {
-    "import Name": "py-dts",
+    "import Name": "NLSS-PyDTS",
     "Official Short Name": "NLSS PyDTS",
     "Official Long Name": "NLSS Data Transfer System",
-    "Version": "0.1.3"
+    "Version": "0.1.4"
 }
