@@ -47,7 +47,7 @@ Mesmo em um ambiente distribuído, a organização e a privacidade são mantidas
 ## 🛠️ Instalação
 
 ```bash
-pip install PyDTS
+pip install NLSS-PyDTS
 ```
 
 ## 🤝 Sobre o Projeto
