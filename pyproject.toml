@@ -14,7 +14,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "NLSS-PyDTS"
-version = "0.2.2"
+version = "0.3.0"
 authors = [
   { name="Next Level Software Studio", email="seu@email.com" },
 ]
@@ -40,3 +40,6 @@ dependencies = ["NLSS-tools"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/py-dts"]
+
+[project.scripts]
+py-dts = "nlss-pydts.sys.cli:main"

@@ -51,3 +51,6 @@ def sistema(complete=True):
     h_final = hashlib.sha256(res.encode('utf-8')).hexdigest()
     with open(sec_file, "w", encoding="utf-8") as f:
         f.write(h_final)
+def verb(msg, verbose: bool = False):
+    if verbose:
+        print(msg)
