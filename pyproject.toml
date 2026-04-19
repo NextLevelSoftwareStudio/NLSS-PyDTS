@@ -14,7 +14,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "NLSS-PyDTS"
-version = "0.3.0"
+version = "0.3.1"
 authors = [
   { name="Next Level Software Studio", email="seu@email.com" },
 ]
