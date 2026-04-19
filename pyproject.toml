@@ -4,17 +4,15 @@ build-backend = "hatchling.build"
 
 [project]
 name = "NLSS-PyDTS"
-version = "0.3.2"
+version = "0.3.3"
 authors = [
   { name="Next Level Software Studio", email="seu@email.com" },
 ]
 classifiers = [
   "Operating System :: Microsoft :: Windows :: Windows 11",
   "Operating System :: POSIX :: Linux",
-  "Programming Language :: Python :: 3",
-  "Programming Language :: C",
+  "Programming Language :: Python",
   "License :: OSI Approved :: MIT License",
-  "Topic :: Communications :: File Transfer",
   "Topic :: System :: Networking",
   "Topic :: Software Development :: Libraries :: Python Modules",
   "Intended Audience :: Developers",
@@ -32,4 +30,4 @@ dependencies = ["NLSS-tools"]
 packages = ["src/py-dts"]
 
 [project.scripts]
-py-dts = "nlss-pydts.sys.cli:main"
+py-dts = "py-dts.sys.cli:main"
