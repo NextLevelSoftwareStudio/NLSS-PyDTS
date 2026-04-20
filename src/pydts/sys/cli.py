@@ -32,7 +32,6 @@ def deviceRegistration(public_key, server_ip, user):
     print(f'Public Key: {public_key}.')
     print('Make sure both devices are connected using an Ethernet cable.')
     question = input('Are they connected? (yes/no): ')
-    lib.A
     if question == "yes":
         subprocess.run(["ping", server_ip, "-c", "4"])
     elif question == "no":
