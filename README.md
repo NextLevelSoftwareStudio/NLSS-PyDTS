@@ -46,8 +46,10 @@ Mesmo em um ambiente distribuído, a organização e a privacidade são mantidas
 
 ## 🛠️ Instalação
 
+Windows
 ```bash
-pip install NLSS-PyDTS
+python -m pip install --upgrade pip # pip upgrading
+pip install --upgrade NLSS-PyDTS # NLSS-PyDTS installing
 ```
 
 ## 🤝 Sobre o Projeto

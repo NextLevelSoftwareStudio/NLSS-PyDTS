@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "NLSS-PyDTS"
-version = "0.3.3"
+version = "0.3.4"
 authors = [
   { name="Next Level Software Studio", email="seu@email.com" },
 ]
@@ -18,10 +18,10 @@ classifiers = [
   "Intended Audience :: Developers",
   "Natural Language :: English",
 ]
-description = "NLSS Data Transfer System"
+description = "A Next Level Software Studio project."
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = ["NLSS-tools"]
+dependencies = ["NLSS-PyTools"]
 
 [project.urls]
 "Homepage" = "https://github.com/NextLevelSoftwareStudio/NLSS-PyDTS"
