@@ -1,9 +1,9 @@
-import argparse, sys, subprocess, os, NLSS_PyTools
+import argparse, sys, subprocess, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 dependencies_path = os.path.join(current_dir, '..', 'dependencies')
 sys.path.append(os.path.abspath(dependencies_path))
 def main():
-    parser = argparse.ArgumentParser(prog="py-dts", description="Ferramenta CLI py-dts")
+    parser = argparse.ArgumentParser(prog="pydts", description="Ferramenta CLI pydts")
     subparsers = parser.add_subparsers(dest="command", help="Comandos disponíveis")
     setup_parser = subparsers.add_parser("deviceSetup", help="Configura o dispositivo")
     setup_parser.add_argument("--publicKey", required=True, help="Chave pública")

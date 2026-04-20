@@ -27,7 +27,7 @@ dependencies = ["NLSS-PyTools"]
 "Homepage" = "https://github.com/NextLevelSoftwareStudio/NLSS-PyDTS"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/py-dts"]
+packages = ["src/pydts"]
 
 [project.scripts]
-py-dts = "py-dts.sys.cli:main"
+pydts = "pydts.sys.cli:main"
