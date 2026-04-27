@@ -25,6 +25,16 @@ def deviceSetup(public_key, server_ip, user):
     print(f'User: {user}.')
     print(f'Device IP: {server_ip}.')
     print(f'Public Key: {public_key}.')
+    print('Make sure both devices are connected using an Ethernet cable.')
+    question = input('Are they connected? (yes/no): ')
+    if question == "yes":
+        try:
+            subprocess.run(["ping", server_ip, "-c", "4"])
+            subprocess.run([])
+        except subprocess.CalledProcessError:
+            print("Failed to ping the server.")
+    elif question == "no":
+        sys.exit(0)
 def deviceRegistration(public_key, server_ip, user):
     print('Initating device registration for:')
     print(f'User: {user}.')
@@ -33,8 +43,10 @@ def deviceRegistration(public_key, server_ip, user):
     print('Make sure both devices are connected using an Ethernet cable.')
     question = input('Are they connected? (yes/no): ')
     if question == "yes":
-        subprocess.run(["ping", server_ip, "-c", "4"])
+        try:
+            subprocess.run(["ping", server_ip, "-c", "4"])
+            subprocess.run([sudo apt update])
+        except subprocess.CalledProcessError:
+            print("Failed to ping the server.")
     elif question == "no":
         sys.exit(0)
-if __name__ == "__main__":
-    main()
